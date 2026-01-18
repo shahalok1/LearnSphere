@@ -1,0 +1,32 @@
+{
+  "name": "learnsphere-backend",
+  "version": "1.0.0",
+  "description": "Backend server for LearnSphere full-stack learning platform",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "learnsphere",
+    "node",
+    "express",
+    "mysql",
+    "backend"
+  ],
+  "author": "Alok Shah",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mysql2": "^3.16.1",
+    "pdfkit": "^0.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}

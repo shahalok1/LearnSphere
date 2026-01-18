@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-link {
+  @apply text-gray-700 dark:text-gray-200 font-medium hover:text-indigo-600 transition;
+}
+
+/* Global micro-interactions */
+* {
+  transition: background-color 0.25s ease, color 0.25s ease, transform 0.2s ease;
+}
+
+button:active {
+  transform: scale(0.97);
+}
